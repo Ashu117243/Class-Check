@@ -110,7 +110,7 @@ function AddNewStudent({refreshData}) {
                     Cancel
                   </Button>
                   <Button type="submit" disabled ={loading}>
-                    {loading ? <LoaderIcon className="animate-spin" ty/> : "Save"}
+                    {loading ? <LoaderIcon className="animate-spin" /> : "Save"}
                   </Button>
                 </div>
               </form>
